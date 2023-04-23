@@ -37,6 +37,7 @@ namespace To_Do_List
                 listBox1.Items.RemoveAt(selectedIndex);
                 textBox1.Clear();
                 dateTimePicker1.Value = DateTime.Now;
+                dateTimePicker2.Value = DateTime.Now;
             }
             else
             {
